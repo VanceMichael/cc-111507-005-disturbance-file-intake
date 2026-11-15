@@ -1,0 +1,54 @@
+[
+  {
+    "id": "standard",
+    "entry": "capture.cfg",
+    "version": "source-v1",
+    "resources": [
+      "capture.cfg",
+      "capture.dat",
+      "short.dat",
+      "other.cfg"
+    ],
+    "behavior": "standard",
+    "description": "设备录波交付：standard"
+  },
+  {
+    "id": "short-data",
+    "entry": "short.dat",
+    "version": "source-v1",
+    "resources": [
+      "capture.cfg",
+      "capture.dat",
+      "short.dat",
+      "other.cfg"
+    ],
+    "behavior": "short-data",
+    "description": "设备录波交付：short-data"
+  },
+  {
+    "id": "wrong-pair",
+    "entry": "other.cfg",
+    "version": "source-v1",
+    "resources": [
+      "capture.cfg",
+      "capture.dat",
+      "short.dat",
+      "other.cfg"
+    ],
+    "behavior": "wrong-pair",
+    "description": "设备录波交付：wrong-pair"
+  },
+  {
+    "id": "unsupported",
+    "entry": "capture.cfg",
+    "version": "source-v1",
+    "resources": [
+      "capture.cfg",
+      "capture.dat",
+      "short.dat",
+      "other.cfg"
+    ],
+    "behavior": "unsupported",
+    "description": "设备录波交付：unsupported"
+  }
+]
