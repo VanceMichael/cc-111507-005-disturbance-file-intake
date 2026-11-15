@@ -11,7 +11,12 @@
       "unsupported.cfg"
     ],
     "behavior": "standard",
-    "description": "设备录波交付：standard"
+    "description": "设备录波交付：standard",
+    "recordingId": "recording-local-1",
+    "station": "SYNTHETIC",
+    "device": "REC01",
+    "configuration": "capture.cfg",
+    "dataFile": "capture.dat"
   },
   {
     "id": "short-data",
@@ -25,7 +30,12 @@
       "unsupported.cfg"
     ],
     "behavior": "short-data",
-    "description": "设备录波交付：short-data"
+    "description": "设备录波交付：short-data",
+    "recordingId": "recording-local-1",
+    "station": "SYNTHETIC",
+    "device": "REC01",
+    "configuration": "capture.cfg",
+    "dataFile": "short.dat"
   },
   {
     "id": "wrong-pair",
@@ -39,7 +49,12 @@
       "unsupported.cfg"
     ],
     "behavior": "wrong-pair",
-    "description": "设备录波交付：wrong-pair"
+    "description": "设备录波交付：wrong-pair",
+    "recordingId": "recording-local-1",
+    "station": "SYNTHETIC",
+    "device": "REC01",
+    "configuration": "other.cfg",
+    "dataFile": "capture.dat"
   },
   {
     "id": "unsupported",
@@ -53,6 +68,11 @@
       "unsupported.cfg"
     ],
     "behavior": "unsupported",
-    "description": "设备录波交付：unsupported"
+    "description": "设备录波交付：unsupported",
+    "recordingId": "recording-local-1",
+    "station": "SYNTHETIC",
+    "device": "REC01",
+    "configuration": "unsupported.cfg",
+    "dataFile": "capture.dat"
   }
 ]
