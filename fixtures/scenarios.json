@@ -7,7 +7,8 @@
       "capture.cfg",
       "capture.dat",
       "short.dat",
-      "other.cfg"
+      "other.cfg",
+      "unsupported.cfg"
     ],
     "behavior": "standard",
     "description": "设备录波交付：standard"
@@ -20,7 +21,8 @@
       "capture.cfg",
       "capture.dat",
       "short.dat",
-      "other.cfg"
+      "other.cfg",
+      "unsupported.cfg"
     ],
     "behavior": "short-data",
     "description": "设备录波交付：short-data"
@@ -33,20 +35,22 @@
       "capture.cfg",
       "capture.dat",
       "short.dat",
-      "other.cfg"
+      "other.cfg",
+      "unsupported.cfg"
     ],
     "behavior": "wrong-pair",
     "description": "设备录波交付：wrong-pair"
   },
   {
     "id": "unsupported",
-    "entry": "capture.cfg",
+    "entry": "unsupported.cfg",
     "version": "source-v1",
     "resources": [
       "capture.cfg",
       "capture.dat",
       "short.dat",
-      "other.cfg"
+      "other.cfg",
+      "unsupported.cfg"
     ],
     "behavior": "unsupported",
     "description": "设备录波交付：unsupported"
